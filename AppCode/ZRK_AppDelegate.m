@@ -7,6 +7,7 @@
 //
 
 #import "ZRK_AppDelegate.h"
+#import "ZRK_ListViewController.h"
 
 @implementation ZRK_AppDelegate
 
@@ -14,6 +15,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    ZRK_ListViewController *lvc=[[ZRK_ListViewController alloc]initWithStyle:UITableViewStylePlain];
+    UINavigationController *masterNav=[[UINavigationController alloc]initWithRootViewController:lvc];
+    [[self window] setRootViewController:masterNav];
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

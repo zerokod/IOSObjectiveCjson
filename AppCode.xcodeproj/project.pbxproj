@@ -19,6 +19,10 @@
 		E1C85124197B2BAE00C928B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1C8510C197B2BAE00C928B2 /* UIKit.framework */; };
 		E1C8512C197B2BAE00C928B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1C8512A197B2BAE00C928B2 /* InfoPlist.strings */; };
 		E1C8512E197B2BAE00C928B2 /* AppCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8512D197B2BAE00C928B2 /* AppCodeTests.m */; };
+		E1C85139197B2C7300C928B2 /* ZRK_ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85138197B2C7300C928B2 /* ZRK_ListViewController.m */; };
+		E1C8513C197B2F2B00C928B2 /* ZRK_TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8513B197B2F2B00C928B2 /* ZRK_TableViewViewController.m */; };
+		E1C8513F197B374D00C928B2 /* ZRK_RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8513E197B374D00C928B2 /* ZRK_RSSChannel.m */; };
+		E1C85142197B3FB500C928B2 /* ZRK_RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		E1C85129197B2BAE00C928B2 /* AppCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCodeTests-Info.plist"; sourceTree = "<group>"; };
 		E1C8512B197B2BAE00C928B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E1C8512D197B2BAE00C928B2 /* AppCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCodeTests.m; sourceTree = "<group>"; };
+		E1C85137197B2C7300C928B2 /* ZRK_ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_ListViewController.h; sourceTree = "<group>"; };
+		E1C85138197B2C7300C928B2 /* ZRK_ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_ListViewController.m; sourceTree = "<group>"; };
+		E1C8513A197B2F2B00C928B2 /* ZRK_TableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_TableViewViewController.h; sourceTree = "<group>"; };
+		E1C8513B197B2F2B00C928B2 /* ZRK_TableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_TableViewViewController.m; sourceTree = "<group>"; };
+		E1C8513D197B374D00C928B2 /* ZRK_RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_RSSChannel.h; sourceTree = "<group>"; };
+		E1C8513E197B374D00C928B2 /* ZRK_RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_RSSChannel.m; sourceTree = "<group>"; };
+		E1C85140197B3FB500C928B2 /* ZRK_RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_RSSItem.h; sourceTree = "<group>"; };
+		E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_RSSItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,14 @@
 		E1C850FC197B2BAE00C928B2 = {
 			isa = PBXGroup;
 			children = (
+				E1C85137197B2C7300C928B2 /* ZRK_ListViewController.h */,
+				E1C85138197B2C7300C928B2 /* ZRK_ListViewController.m */,
+				E1C85140197B3FB500C928B2 /* ZRK_RSSItem.h */,
+				E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */,
+				E1C8513D197B374D00C928B2 /* ZRK_RSSChannel.h */,
+				E1C8513E197B374D00C928B2 /* ZRK_RSSChannel.m */,
+				E1C8513A197B2F2B00C928B2 /* ZRK_TableViewViewController.h */,
+				E1C8513B197B2F2B00C928B2 /* ZRK_TableViewViewController.m */,
 				E1C8510E197B2BAE00C928B2 /* AppCode */,
 				E1C85127197B2BAE00C928B2 /* AppCodeTests */,
 				E1C85107197B2BAE00C928B2 /* Frameworks */,
@@ -240,7 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1C8513C197B2F2B00C928B2 /* ZRK_TableViewViewController.m in Sources */,
+				E1C8513F197B374D00C928B2 /* ZRK_RSSChannel.m in Sources */,
 				E1C85119197B2BAE00C928B2 /* ZRK_AppDelegate.m in Sources */,
+				E1C85142197B3FB500C928B2 /* ZRK_RSSItem.m in Sources */,
+				E1C85139197B2C7300C928B2 /* ZRK_ListViewController.m in Sources */,
 				E1C85115197B2BAE00C928B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
