@@ -8,8 +8,12 @@
 
 #import "ZRK_ListViewController.h"
 #import "ZRK_RSSChannel.h"
+#import "ZRK_WebViewController.h"
+#import "ZRK_RSSItem.h"
 
 @implementation ZRK_ListViewController
+
+@synthesize webviewcontroller;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -68,6 +72,21 @@
     ZRK_RSSChannel *item=[[channel items] objectAtIndex:[indexPath row]];
     [[cell textLabel] setText:[item title]];
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [[self navigationController]pushViewController:webviewcontroller animated:YES];
+    
+    ZRK_RSSItem *entry = [[channel items]objectAtIndex:[indexPath row]];
+    
+    NSURL *url = [NSURL URLWithString:[entry link]];
+    
+    NSURLRequest *req = [NSURLRequest requestWithURL:url];
+    
+    [[webviewcontroller webView]loadRequest:req];
+    
+    [[webviewcontroller navigationItem] setTitle:[entry title]];
 }
 
 -(void) fetchEntries

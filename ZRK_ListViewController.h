@@ -8,14 +8,17 @@
 
 #import <Foundation/Foundation.h>
 @class ZRK_RSSChannel;
+@class ZRK_WebViewController;
 
-@interface ZRK_ListViewController : UITableViewController <UITableViewDelegate , UITableViewDataSource>
+@interface ZRK_ListViewController : UITableViewController <NSXMLParserDelegate, UITableViewDelegate , UITableViewDataSource>
 {
     NSURLConnection *connection;
     NSMutableData *xmlData;
     
     ZRK_RSSChannel *channel;
 }
+@property (nonatomic,strong) ZRK_WebViewController *webviewcontroller;
 
 -(void) fetchEntries;
+
 @end

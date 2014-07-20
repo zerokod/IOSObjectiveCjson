@@ -8,6 +8,7 @@
 
 #import "ZRK_AppDelegate.h"
 #import "ZRK_ListViewController.h"
+#import "ZRK_WebViewController.h"
 
 @implementation ZRK_AppDelegate
 
@@ -18,6 +19,10 @@
     
     ZRK_ListViewController *lvc=[[ZRK_ListViewController alloc]initWithStyle:UITableViewStylePlain];
     UINavigationController *masterNav=[[UINavigationController alloc]initWithRootViewController:lvc];
+    
+    ZRK_WebViewController *wvc=[[ZRK_WebViewController alloc]init];
+    [lvc setWebviewcontroller:wvc];
+    
     [[self window] setRootViewController:masterNav];
     
     
