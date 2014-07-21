@@ -32,6 +32,7 @@
         currentString = [[NSMutableString alloc]init];
         [self setInfoString:currentString];
     }else if ([elementName isEqual:@"item"]){
+        
         ZRK_RSSItem *entry =[[ZRK_RSSItem alloc]init];
         
         [entry setParentParserDelegate:self];

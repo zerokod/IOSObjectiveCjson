@@ -24,6 +24,8 @@
 		E1C8513F197B374D00C928B2 /* ZRK_RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8513E197B374D00C928B2 /* ZRK_RSSChannel.m */; };
 		E1C85142197B3FB500C928B2 /* ZRK_RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */; };
 		E1C85145197B463A00C928B2 /* ZRK_WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85144197B463A00C928B2 /* ZRK_WebViewController.m */; };
+		E1C85148197B4EF300C928B2 /* ZRK_FeedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85147197B4EF300C928B2 /* ZRK_FeedStore.m */; };
+		E1C8514B197B540F00C928B2 /* ZRK_Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8514A197B540F00C928B2 /* ZRK_Connection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_RSSItem.m; sourceTree = "<group>"; };
 		E1C85143197B463A00C928B2 /* ZRK_WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_WebViewController.h; sourceTree = "<group>"; };
 		E1C85144197B463A00C928B2 /* ZRK_WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_WebViewController.m; sourceTree = "<group>"; };
+		E1C85146197B4EF300C928B2 /* ZRK_FeedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_FeedStore.h; sourceTree = "<group>"; };
+		E1C85147197B4EF300C928B2 /* ZRK_FeedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_FeedStore.m; sourceTree = "<group>"; };
+		E1C85149197B540F00C928B2 /* ZRK_Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_Connection.h; sourceTree = "<group>"; };
+		E1C8514A197B540F00C928B2 /* ZRK_Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_Connection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,10 @@
 				E1C85144197B463A00C928B2 /* ZRK_WebViewController.m */,
 				E1C85137197B2C7300C928B2 /* ZRK_ListViewController.h */,
 				E1C85138197B2C7300C928B2 /* ZRK_ListViewController.m */,
+				E1C85146197B4EF300C928B2 /* ZRK_FeedStore.h */,
+				E1C85147197B4EF300C928B2 /* ZRK_FeedStore.m */,
+				E1C85149197B540F00C928B2 /* ZRK_Connection.h */,
+				E1C8514A197B540F00C928B2 /* ZRK_Connection.m */,
 				E1C85140197B3FB500C928B2 /* ZRK_RSSItem.h */,
 				E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */,
 				E1C8513D197B374D00C928B2 /* ZRK_RSSChannel.h */,
@@ -266,7 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C8513C197B2F2B00C928B2 /* ZRK_TableViewViewController.m in Sources */,
+				E1C85148197B4EF300C928B2 /* ZRK_FeedStore.m in Sources */,
 				E1C8513F197B374D00C928B2 /* ZRK_RSSChannel.m in Sources */,
+				E1C8514B197B540F00C928B2 /* ZRK_Connection.m in Sources */,
 				E1C85145197B463A00C928B2 /* ZRK_WebViewController.m in Sources */,
 				E1C85119197B2BAE00C928B2 /* ZRK_AppDelegate.m in Sources */,
 				E1C85142197B3FB500C928B2 /* ZRK_RSSItem.m in Sources */,

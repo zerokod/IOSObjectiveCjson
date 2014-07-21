@@ -10,14 +10,35 @@
 @class ZRK_RSSChannel;
 @class ZRK_WebViewController;
 
-@interface ZRK_ListViewController : UITableViewController <NSXMLParserDelegate, UITableViewDelegate , UITableViewDataSource>
+@interface ZRK_ListViewController : UITableViewController < UITableViewDelegate , UITableViewDataSource>
 {
+  
     NSURLConnection *connection;
     NSMutableData *xmlData;
     
+    NSMutableData *responseData;
+    NSMutableArray * songs;
     ZRK_RSSChannel *channel;
+    
+     NSMutableArray * artistNameArr;
+     NSMutableArray * trackNameArr;
+     NSMutableArray * trackViewUrlArr;
+    NSMutableArray *previewUrlArr;
 }
 @property (nonatomic,strong) ZRK_WebViewController *webviewcontroller;
+@property NSString * artistName;
+@property NSString * trackName;
+@property NSString * trackViewUrl;
+@property NSString * previewUrl;
+
+@property NSString * searchedSong;
+@property NSString * loadingIcon;
+@property (nonatomic,readonly,strong)NSMutableArray *items;
+@property (nonatomic, strong) NSMutableData *responseData;
+
+@property (strong ,nonatomic) NSMutableArray *tableItems;
+@property (strong ,nonatomic) NSMutableDictionary *cachedImages;
+
 
 -(void) fetchEntries;
 
