@@ -20,12 +20,9 @@
 		E1C8512C197B2BAE00C928B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1C8512A197B2BAE00C928B2 /* InfoPlist.strings */; };
 		E1C8512E197B2BAE00C928B2 /* AppCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8512D197B2BAE00C928B2 /* AppCodeTests.m */; };
 		E1C85139197B2C7300C928B2 /* ZRK_ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85138197B2C7300C928B2 /* ZRK_ListViewController.m */; };
-		E1C8513C197B2F2B00C928B2 /* ZRK_TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8513B197B2F2B00C928B2 /* ZRK_TableViewViewController.m */; };
-		E1C8513F197B374D00C928B2 /* ZRK_RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8513E197B374D00C928B2 /* ZRK_RSSChannel.m */; };
-		E1C85142197B3FB500C928B2 /* ZRK_RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */; };
 		E1C85145197B463A00C928B2 /* ZRK_WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85144197B463A00C928B2 /* ZRK_WebViewController.m */; };
-		E1C85148197B4EF300C928B2 /* ZRK_FeedStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C85147197B4EF300C928B2 /* ZRK_FeedStore.m */; };
-		E1C8514B197B540F00C928B2 /* ZRK_Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C8514A197B540F00C928B2 /* ZRK_Connection.m */; };
+		E1D35F07197D85CB00A0727E /* ZRK_DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D35F05197D85CB00A0727E /* ZRK_DetailsViewController.m */; };
+		E1D35F08197D85CB00A0727E /* ZRK_DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D35F06197D85CB00A0727E /* ZRK_DetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,18 +54,11 @@
 		E1C8512D197B2BAE00C928B2 /* AppCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppCodeTests.m; sourceTree = "<group>"; };
 		E1C85137197B2C7300C928B2 /* ZRK_ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_ListViewController.h; sourceTree = "<group>"; };
 		E1C85138197B2C7300C928B2 /* ZRK_ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_ListViewController.m; sourceTree = "<group>"; };
-		E1C8513A197B2F2B00C928B2 /* ZRK_TableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_TableViewViewController.h; sourceTree = "<group>"; };
-		E1C8513B197B2F2B00C928B2 /* ZRK_TableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_TableViewViewController.m; sourceTree = "<group>"; };
-		E1C8513D197B374D00C928B2 /* ZRK_RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_RSSChannel.h; sourceTree = "<group>"; };
-		E1C8513E197B374D00C928B2 /* ZRK_RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_RSSChannel.m; sourceTree = "<group>"; };
-		E1C85140197B3FB500C928B2 /* ZRK_RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_RSSItem.h; sourceTree = "<group>"; };
-		E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_RSSItem.m; sourceTree = "<group>"; };
 		E1C85143197B463A00C928B2 /* ZRK_WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_WebViewController.h; sourceTree = "<group>"; };
 		E1C85144197B463A00C928B2 /* ZRK_WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_WebViewController.m; sourceTree = "<group>"; };
-		E1C85146197B4EF300C928B2 /* ZRK_FeedStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_FeedStore.h; sourceTree = "<group>"; };
-		E1C85147197B4EF300C928B2 /* ZRK_FeedStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_FeedStore.m; sourceTree = "<group>"; };
-		E1C85149197B540F00C928B2 /* ZRK_Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_Connection.h; sourceTree = "<group>"; };
-		E1C8514A197B540F00C928B2 /* ZRK_Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_Connection.m; sourceTree = "<group>"; };
+		E1D35F04197D85CB00A0727E /* ZRK_DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRK_DetailsViewController.h; sourceTree = "<group>"; };
+		E1D35F05197D85CB00A0727E /* ZRK_DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRK_DetailsViewController.m; sourceTree = "<group>"; };
+		E1D35F06197D85CB00A0727E /* ZRK_DetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZRK_DetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,20 +88,13 @@
 		E1C850FC197B2BAE00C928B2 = {
 			isa = PBXGroup;
 			children = (
+				E1D35F04197D85CB00A0727E /* ZRK_DetailsViewController.h */,
+				E1D35F05197D85CB00A0727E /* ZRK_DetailsViewController.m */,
+				E1D35F06197D85CB00A0727E /* ZRK_DetailsViewController.xib */,
 				E1C85143197B463A00C928B2 /* ZRK_WebViewController.h */,
 				E1C85144197B463A00C928B2 /* ZRK_WebViewController.m */,
 				E1C85137197B2C7300C928B2 /* ZRK_ListViewController.h */,
 				E1C85138197B2C7300C928B2 /* ZRK_ListViewController.m */,
-				E1C85146197B4EF300C928B2 /* ZRK_FeedStore.h */,
-				E1C85147197B4EF300C928B2 /* ZRK_FeedStore.m */,
-				E1C85149197B540F00C928B2 /* ZRK_Connection.h */,
-				E1C8514A197B540F00C928B2 /* ZRK_Connection.m */,
-				E1C85140197B3FB500C928B2 /* ZRK_RSSItem.h */,
-				E1C85141197B3FB500C928B2 /* ZRK_RSSItem.m */,
-				E1C8513D197B374D00C928B2 /* ZRK_RSSChannel.h */,
-				E1C8513E197B374D00C928B2 /* ZRK_RSSChannel.m */,
-				E1C8513A197B2F2B00C928B2 /* ZRK_TableViewViewController.h */,
-				E1C8513B197B2F2B00C928B2 /* ZRK_TableViewViewController.m */,
 				E1C8510E197B2BAE00C928B2 /* AppCode */,
 				E1C85127197B2BAE00C928B2 /* AppCodeTests */,
 				E1C85107197B2BAE00C928B2 /* Frameworks */,
@@ -257,6 +240,7 @@
 			files = (
 				E1C85113197B2BAE00C928B2 /* InfoPlist.strings in Resources */,
 				E1C8511B197B2BAE00C928B2 /* Images.xcassets in Resources */,
+				E1D35F08197D85CB00A0727E /* ZRK_DetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,14 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C8513C197B2F2B00C928B2 /* ZRK_TableViewViewController.m in Sources */,
-				E1C85148197B4EF300C928B2 /* ZRK_FeedStore.m in Sources */,
-				E1C8513F197B374D00C928B2 /* ZRK_RSSChannel.m in Sources */,
-				E1C8514B197B540F00C928B2 /* ZRK_Connection.m in Sources */,
 				E1C85145197B463A00C928B2 /* ZRK_WebViewController.m in Sources */,
 				E1C85119197B2BAE00C928B2 /* ZRK_AppDelegate.m in Sources */,
-				E1C85142197B3FB500C928B2 /* ZRK_RSSItem.m in Sources */,
 				E1C85139197B2C7300C928B2 /* ZRK_ListViewController.m in Sources */,
+				E1D35F07197D85CB00A0727E /* ZRK_DetailsViewController.m in Sources */,
 				E1C85115197B2BAE00C928B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +466,7 @@
 				E1C85133197B2BAE00C928B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1C85134197B2BAE00C928B2 /* Build configuration list for PBXNativeTarget "AppCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +475,7 @@
 				E1C85136197B2BAE00C928B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

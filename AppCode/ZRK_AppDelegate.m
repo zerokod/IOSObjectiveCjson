@@ -9,8 +9,11 @@
 #import "ZRK_AppDelegate.h"
 #import "ZRK_ListViewController.h"
 #import "ZRK_WebViewController.h"
+#import "ZRK_DetailsViewController.h"
 
 @implementation ZRK_AppDelegate
+
+@synthesize window,navigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -20,11 +23,15 @@
     ZRK_ListViewController *lvc=[[ZRK_ListViewController alloc]initWithStyle:UITableViewStylePlain];
     UINavigationController *masterNav=[[UINavigationController alloc]initWithRootViewController:lvc];
     
-    ZRK_WebViewController *wvc=[[ZRK_WebViewController alloc]init];
-    [lvc setWebviewcontroller:wvc];
+    //ZRK_DetailsViewController *dvc=[[ZRK_DetailsViewController alloc]init];
+    //[dvc setWebviewcontroller:dvc];
+    
+    //ZRK_WebViewController *wvc=[[ZRK_WebViewController alloc]init];
+    //[dvc setWebviewcontroller:wvc];
     
     [[self window] setRootViewController:masterNav];
     
+    [window addSubview:navigationController.view];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
