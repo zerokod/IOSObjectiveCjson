@@ -27,10 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    //[super viewWillAppear:animated];
-    //songs = [NSMutableArray arrayWithObjects: nil];
-    //songs2  = [NSMutableArray arrayWithObjects: nil];
+
    
 
 }
@@ -40,64 +37,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-/*
--(id) initPerNuovoElemento:(NSMutableArray*)fillarr;{
-    
-    self = [super initWithNibName:@"ZRK_DetailsViewController" bundle:nil];
-    if(self){
-        if(fillarr){
-            
-           [songs addObject:[fillarr objectAtIndex:0]];
-            NSLog(@"fillarr : %@", [fillarr objectAtIndex:0]);
-            NSLog(@"fillarr count: %d", [fillarr count]);
-           NSLog(@"songs count: %d", [songs count]);
-            for (id obj in fillarr)
-                NSLog(@"fillarr obj: %@", obj);
-            
-            NSLog(@"array: %@", songs);
-             [artistName setText:@"gfbgb"];
-            //[artistName setText:[fillarr objectAtIndex:0]];
-             [trackName setText:[fillarr objectAtIndex:1]];
-            [collectionName setText:[fillarr objectAtIndex:2]];
 
-            UIBarButtonItem *oggettoCreato = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(save:)];
-            [[self navigationItem] setRightBarButtonItem:oggettoCreato];
-            UIBarButtonItem *cancellaOggetto = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(cancel:)];
-            [[self navigationItem]setLeftBarButtonItem:cancellaOggetto];
-            
-        }
-        
-    }
-    return self;
-}
-*/
-/*
--(void)fillScheda:(NSMutableArray*)fillarr
-{
-    //[songs addObject:[fillarr objectAtIndex:0]];
-    NSLog(@"fillarr count: %d", [fillarr count]);
-    NSLog(@"fillarr count: %@", fillarr);
-    [songs addObject:fillarr];
-    NSLog(@"songs count: %d", [songs count]);
-    NSLog(@"songs 1: %@", [songs objectAtIndex:0]);
-    [songs2 addObject:[songs objectAtIndex:0]];
-    for (id obj in songs2)
-        NSLog(@"songs2 obj: %@", obj);
-    //[self setTitle:[fillarr objectAtIndex:0]];
-    // songs=fillarr;
-   //[artistName setText:[fillarr objectAtIndex:0]];
-   // [trackName setText:[fillarr objectAtIndex:1]];
-   //[collectionName setText:[fillarr objectAtIndex:2]];
-    
-}*/
+
 
 -(void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     //[artistName setText:@"dfvsdfv"];
     NSLog(@"array: %@", songs);
-    //[trackName setText:[songs objectAtIndex:1]];
-    //[collectionName setText:[fillarr objectAtIndex:2]];
+    
 
     
     [self setTitle:[songs objectAtIndex:1]];
@@ -116,14 +64,14 @@
     
     if(chiaveImmagine){
     
-        //[immagine setImage:immagineDaVisualizzare];
+        
         
         
         NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:chiaveImmagine]];
         
         [immagine setImage:[UIImage imageWithData:data]];
         
-        /////////////////
+       
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
            NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:chiaveImmagine]];
             //if (imgData == nil && netStatus == ReachableViaWiFi) {
@@ -138,8 +86,7 @@
 
         
         
-        
-        ///////////////////
+    
         
     }
     else {
@@ -148,29 +95,7 @@
         
     }
 
-    /*
-    [nome setText:[oggetto nomeOggetto]];
-    [seriale setText:[oggetto numeroDiSerie]];
-    [valore setText:[NSString stringWithFormat:@"%d", [oggetto valore]]];
-    NSDateFormatter *df = [[NSDateFormatter alloc] init];
-    [df setDateStyle:NSDateFormatterMediumStyle];
-    [df setTimeStyle:NSDateFormatterNoStyle];
-    [data setText:[df stringFromDate:[oggetto dataCreazione]]];
-    NSString *chiaveImmagine = [oggetto chiaveImmagine];
-    
-    if(chiaveImmagine){
-        
-        UIImage *immagineDaVisualizzare =[[MagazzinoImmagini magazzinoCondiviso] ottieniImmagineDaChiave:chiaveImmagine];
-        [immagine setImage:immagineDaVisualizzare];
-        
-    }
-    else {
-        
-        [immagine setImage:nil];
-        
-    }
-    */
-}
+   }
 
 - (IBAction)artistPreview:(id)sender
 {
@@ -186,22 +111,7 @@
     [[_WebViewController webView]loadRequest:req];
     
     [[_WebViewController navigationItem] setTitle:[songs objectAtIndex:0]];
-    /*
-    
-    [[self navigationController]pushViewController:webviewcontroller animated:YES];
-    
-    //NSURL *url = [NSURL URLWithString:[trackViewUrlArr objectAtIndex:indexPath.row]];
-    
-    NSURL *url = [NSURL URLWithString:@"http://2outgames.com/"];
-    
-    NSURLRequest *req = [NSURLRequest requestWithURL:url];
-    
-    [[webviewcontroller webView]loadRequest:req];
-    
-    [[webviewcontroller navigationItem] setTitle:[songs objectAtIndex:0]];
-    
-   */
-    ///////////////////////
+   
     
 
 }
@@ -219,23 +129,6 @@
     [[_WebViewController webView]loadRequest:req];
     
     [[_WebViewController navigationItem] setTitle:[songs objectAtIndex:1]];
-    /////////
-    
-    //[[self navigationController] pushViewController:ZRK_WebViewController   animated:YES];
-   /*
-    [[self navigationController]pushViewController:webviewcontroller animated:YES];
-    
-    //NSURL *url = [NSURL URLWithString:[trackViewUrlArr objectAtIndex:indexPath.row]];
-    
-    NSURL *url = [NSURL URLWithString:@"http://2outgames.com/"];
-    
-    NSURLRequest *req = [NSURLRequest requestWithURL:url];
-    
-    [[webviewcontroller webView]loadRequest:req];
-
-    [[webviewcontroller navigationItem] setTitle:[songs objectAtIndex:1]];*/
-    
-    /////////////////
-}
+   }
 
 @end

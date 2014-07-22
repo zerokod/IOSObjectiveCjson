@@ -28,9 +28,7 @@
    
     NSURLRequest *request = [NSURLRequest requestWithURL:
                              [NSURL URLWithString:@"https://itunes.apple.com/search?term=Michael+jackson"]];
-    //NSURLRequest *request = [NSURLRequest requestWithURL:
-                             //[NSURL URLWithString:@"https://itunes.apple.com/search?term=Coldplay"]];
-
+   
     [[NSURLConnection alloc] initWithRequest:request delegate:self];
     
     
@@ -95,10 +93,6 @@
    
     for(NSDictionary *result in results)
     {
-        
-        //artistName = [result objectForKey:@"artistName"];
-        //trackName = [result objectForKey:@"trackName"];
-        //trackViewUrl = [result objectForKey:@"trackViewUrl"];
   
         
         
@@ -122,13 +116,12 @@
         
         [artistViewUrlArr addObject:[result objectForKey:@"artistViewUrl"]];
         
-         //NSLog(@"trackName value: %@ \n", [result objectForKey:@"trackName"]);
+
         
         
         
     }
-  
-    // NSLog(@"trackNameArr.count: %d", trackNameArr.count);
+ 
     [self.tableView reloadData];
     
     
@@ -138,32 +131,19 @@
     [super viewDidUnload];
    
 }
-////////////////
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
-        // Custom initialization
-        //[self fetchEntries];
-        //_items = [[NSMutableArray alloc]init];
+      
        
     }
     return self;
 }
 
-/*
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
- 
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
- 
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-}
-*/
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -233,25 +213,7 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-   /*
-    [[self navigationController]pushViewController:webviewcontroller animated:YES];
     
-       NSURL *url = [NSURL URLWithString:[trackViewUrlArr objectAtIndex:indexPath.row]];
-    
-     //NSURL *url = [NSURL URLWithString:@"http://2outgames.com/"];
-    
-    NSURLRequest *req = [NSURLRequest requestWithURL:url];
-    
-    [[webviewcontroller webView]loadRequest:req];
-    
-    [[webviewcontroller navigationItem] setTitle:[trackNameArr objectAtIndex:indexPath.row]];
-    */
-    
-    //ZRK_DetailsViewController *dtv = [[ZRK_DetailsViewController alloc] initPerNuovoElemento:NO];
-    //NSArray *oggetti = [[NegozioOggettiCasa negozioCondiviso] tuttiGliOggetti];
-    //OggettoDiCasa *oggettoSelezionato = [oggetti objectAtIndex:[indexPath row]];
-    //[dtv setOggetto:oggettoSelezionato];
-   
     [schemaArr addObject:[artistNameArr objectAtIndex:indexPath.row]];
     
     [schemaArr addObject:[trackNameArr objectAtIndex:indexPath.row]];
@@ -272,20 +234,11 @@
     
     [schemaArr addObject:[artistViewUrlArr objectAtIndex:indexPath.row]];
     
-    //[schemaArr addObject:@"kbjhjhbjh"];
-    //[schemaArr addObject:@"kbjhjhjhvjh"];
-    
-    //NSLog(@"schemaArr count: %d", [schemaArr count]);
-    //NSLog(@"schemaArr count: %@", schemaArr);
-    
-   // ZRK_DetailsViewController *dtv = [[ZRK_DetailsViewController alloc] initPerNuovoElemento:(NSMutableArray*)schemaArr];
     
     ZRK_DetailsViewController *dtv = [[ZRK_DetailsViewController alloc] init];
 
-    //[[ZRK_DetailsViewController songs] addObject:schemaArr ];
     dtv.songs = schemaArr;
     NSLog(@"array: %@", dtv.songs);
-    //[dtv fillScheda:schemaArr];
     [[self navigationController] pushViewController:dtv animated:YES];
 
     
