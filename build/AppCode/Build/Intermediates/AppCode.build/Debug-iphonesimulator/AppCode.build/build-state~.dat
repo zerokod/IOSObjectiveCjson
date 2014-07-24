@@ -1,0 +1,344 @@
+TAppCode
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.pch AppCode/AppCode-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode normal i386
+cCopyStringsFile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/en.lproj/InfoPlist.strings AppCode/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/Images.xcassets
+cProcessInfoPlistFile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Info.plist /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Info.plist
+cGenerateDSYMFile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode
+cTouch /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000527843C500000000000003B5
+t1383613381
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000527843D100000000000001A0
+t1383613393
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000527843D50000000000445870
+t1383613397
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000527843D8000000000088C680
+t1383613400
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000527843DD0000000001DB9910
+t1383613405
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000525638CE0000000000000AC9
+t1381382350
+s2761
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Info.plist
+c0000000053CAF42E00000000000005B2
+t1405809710
+s1458
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Prefix.pch
+c0000000053CAF42E0000000000000158
+t1405809710
+s344
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/Images.xcassets
+c0000000053CAF42E0000000000000088
+t1405809710
+s136
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m
+c0000000053CAF69F00000000000009D5
+t1405810335
+s2517
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/en.lproj/InfoPlist.strings
+c0000000053CAF42E000000000000002D
+t1405809710
+s45
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m
+c0000000053CAF42E0000000000000170
+t1405809710
+s368
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m
+c0000000053CAF5AA00000000000001E1
+t1405810090
+s481
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/AppCode.LinkFileList
+c0000000053CAF6A1000000000000021B
+t1405810337
+s539
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.o
+t1405810341
+s70996
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.o
+t1405810341
+s47544
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.o
+t1405810341
+s3716
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/assetcatalog_dependencies.txt
+t1405810347
+s476
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/assetcatalog_generated_info.plist
+t1405810347
+s525
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.pch
+t1405810341
+s108712
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app
+t1405810347
+s272
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM
+t2
+s0
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode
+t1405810342
+s21904
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Info.plist
+t1405810347
+s1195
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/PkgInfo
+t1405810347
+s8
+
+N/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/en.lproj/InfoPlist.strings
+t1405810342
+s42
+
+CBuild AST from /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m
+r0
+
+CBuild AST from /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m
+r0
+
+CBuild AST from /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies33535e212e7bb941^d38376212e7bb941^---0#1#1#--18"Check dependencies36"5AD5D20D-8281-49D3-8892-AF4F2FA69F68-
+
+CCompileAssetCatalog /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/Images.xcassets
+s427503142.124946
+e427503147.686135
+r1
+xCompileAssetCatalog
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/LaunchImage-700-568h@2x.png
+o/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Assets.car
+o/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CompileAssetCatalog build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app AppCode/Images.xcassets106"CompileAssetCatalog build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app AppCode/Images.xcassetsa20d20262e7bb941^11a7af2b2e7bb941^-504"/* com.apple.actool.compilation-results *//Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/LaunchImage-700-568h@2x.png/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Assets.car/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/Images.xcassets/0000000000000000^1315"CompileAssetCatalog build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app AppCode/Images.xcassets    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/Images.xcassets36"AB33129B-2567-4B63-9848-E4465B94D3A7-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CCompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427503141.859544
+e427503141.923564
+r1
+xCompileC
+xbuild/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.o
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.h
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m224"CompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.o AppCode/ZRK_AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd428dc252e7bb941^2e71ec252e7bb941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m0000000000000000^4141"CompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.o AppCode/ZRK_AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-generated-files.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-own-target-headers.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-all-target-headers.hmap -iquote /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-project-headers.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/DerivedSources/i386 -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/DerivedSources -F/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator -include /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch -MMD -MT dependencies -MF /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.d --serialize-diagnostics /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.dia -c /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.m -o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.o36"08320B7A-A883-4C61-B932-2262EA932DF7-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CCompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427503141.859804
+e427503141.915954
+r1
+xCompileC
+xbuild/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.o
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m230"CompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.o ZRK_ListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1136dc252e7bb941^7c7cea252e7bb941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m0000000000000000^4167"CompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.o ZRK_ListViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-generated-files.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-own-target-headers.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-all-target-headers.hmap -iquote /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-project-headers.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/DerivedSources/i386 -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/DerivedSources -F/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator -include /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch -MMD -MT dependencies -MF /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.d --serialize-diagnostics /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.dia -c /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/ZRK_ListViewController.m -o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.o36"83EF2666-D667-45D1-AFD5-C1FC8EABCDE5-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CCompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427503141.860089
+e427503141.891608
+r1
+xCompileC
+xbuild/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.o
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/ZRK_AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m202"CompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.o AppCode/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5e47dc252e7bb941^5741e4252e7bb941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m0000000000000000^4075"CompileC build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.o AppCode/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-generated-files.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-own-target-headers.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-all-target-headers.hmap -iquote /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-project-headers.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/DerivedSources/i386 -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/DerivedSources -F/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator -include /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch -MMD -MT dependencies -MF /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.dia -c /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/main.m -o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.o36"766B0753-AD35-477F-B1B5-CB87CED50D03-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CCopyStringsFile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/en.lproj/InfoPlist.strings AppCode/en.lproj/InfoPlist.strings
+s427503142.124520
+e427503142.189375
+r1
+xCopyStringsFile
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/en.lproj/InfoPlist.strings
+xAppCode/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy AppCode/en.lproj/InfoPlist.strings140"CopyStringsFile build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/en.lproj/InfoPlist.strings AppCode/en.lproj/InfoPlist.stringsc7f51f262e7bb941^cc7b30262e7bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/en.lproj/InfoPlist.strings0000000000000000^661"CopyStringsFile build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/en.lproj/InfoPlist.strings AppCode/en.lproj/InfoPlist.strings    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/en.lproj -- AppCode/en.lproj/InfoPlist.strings36"1A1A5F21-98B4-4323-A8C0-C42A04EA7197-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CGenerateDSYMFile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode
+s427503147.864820
+e427503148.102134
+r1
+xGenerateDSYMFile
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Generate /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM155"GenerateDSYMFile build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode427bdd2b2e7bb941^a2261a2c2e7bb941^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM00349cbaddffdf42^777"GenerateDSYMFile build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode -o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app.dSYM36"02FE37B7-4D81-4AE2-96E1-7D5244029BF4-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CLd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode normal i386
+s427503141.924216
+e427503142.123564
+r1
+xLd
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode
+xnormal
+xi386
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/AppCode.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_AppDelegate.o
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/ZRK_ListViewController.o
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Link /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode85"Ld build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode normal i386aca9ec252e7bb941^12a31f262e7bb941^---0#0#1#--1593"Ld build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode normal i386    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator -F/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator -filelist /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/AppCode.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/Objects-normal/i386/AppCode_dependency_info.dat -o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/AppCode36"E2E871BD-DA3F-4922-AF11-701D1DC6F457-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CProcessInfoPlistFile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Info.plist /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Info.plist
+s427503147.736838
+e427503147.828823
+r1
+xProcessInfoPlistFile
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Info.plist
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Process /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Info.plist121"ProcessInfoPlistFile build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Info.plist AppCode/AppCode-Info.plist95babc2b2e7bb941^ba2ed42b2e7bb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Info.plist0000000000000000^1038"ProcessInfoPlistFile build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Info.plist AppCode/AppCode-Info.plist    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Info.plist -genpkginfo /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/assetcatalog_generated_info.plist -o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app/Info.plist36"D3AD4A3B-15A1-4C94-8781-1700159080A7-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CProcessPCH /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.pch AppCode/AppCode-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427503137.526636
+e427503141.858583
+r1
+xProcessPCH
+x/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.pch
+xAppCode/AppCode-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile AppCode/AppCode-Prefix.pch225"ProcessPCH build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.pch AppCode/AppCode-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler93fe86212e7bb941^96cedb252e7bb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Prefix.pch0000000000000000^3956"ProcessPCH build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.pch AppCode/AppCode-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-generated-files.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-own-target-headers.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-all-target-headers.hmap -iquote /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/AppCode-project-headers.hmap -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/DerivedSources/i386 -I/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/AppCode.build/Debug-iphonesimulator/AppCode.build/DerivedSources -F/Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.d -c /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/AppCode/AppCode-Prefix.pch -o /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Intermediates/PrecompiledHeaders/AppCode-Prefix-fimwogyixtasalgayornjdvbxmqd/AppCode-Prefix.pch.pch36"2DD1C777-B36C-4D9B-AE7F-25C5E911FFD3-
+bBBED3312-6993-4696-BF73-B6473C57A9F8
+
+CProcessPCH /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Index/PrecompiledHeaders/AppCode-Prefix-exljfkmixveswshcomqqihswsxek_ast/AppCode-Prefix.pch.pch AppCode/AppCode-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/Roberta/Documents/macbook/xcodeapps/AppCode/AppCode/build/AppCode/Build/Products/Debug-iphonesimulator/AppCode.app
+r0
+
